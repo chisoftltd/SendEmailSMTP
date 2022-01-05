@@ -20,3 +20,16 @@ pwd = 'pyt@#chinwe'
 #                         msg="Subject:Hello\n\n"
 #                         "I am testing sending email with python")
 
+import datetime as dt
+
+now = dt.datetime.now()
+year = now.year
+print(year)
+month = now.month
+print(month)
+weekday = now.weekday()
+print(weekday)
+day = now.day()
+print(day)
+min = now.minute()
+print(min)
