@@ -12,11 +12,11 @@ pwd = 'pyt@#chinwe'
 #                     "I am testing sending email with python")
 # connection.close()
 
-with smtplib.SMTP("smtp.gmail.com") as connection:
-    connection.starttls()
-    connection.login(user=my_email, password=pwd)
-    connection.sendmail(from_addr=my_email,
-                        to_addrs='gnexplore@gmail.com',
-                        msg="Subject:Hello\n\n"
-                        "I am testing sending email with python")
+# with smtplib.SMTP("smtp.gmail.com") as connection:
+#     connection.starttls()
+#     connection.login(user=my_email, password=pwd)
+#     connection.sendmail(from_addr=my_email,
+#                         to_addrs='gnexplore@gmail.com',
+#                         msg="Subject:Hello\n\n"
+#                         "I am testing sending email with python")
 
