@@ -29,7 +29,7 @@ month = now.month
 print(month)
 weekday = now.weekday()
 print(weekday)
-day = now.day()
-print(day)
-min = now.minute()
-print(min)
+
+# User datetime object
+date_of_brith = dt.datetime(year=1972, month=11, day=30, hour=19)
+print(date_of_brith)
